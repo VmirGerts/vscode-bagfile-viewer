@@ -1,6 +1,10 @@
-# first-vs-code-extension README
+# <DRAFT>
 
-This is the README for your extension "first-vs-code-extension". After writing up a brief description, we recommend including the following sections.
+This is a "draft" VS Code extension to view *.bag files of the ROS Framework. Most code parts are coming from the https://github.com/microsoft/vscode-extension-samples
+
+# bagfile-viewer-vs-code-extension README
+
+This is the README for your extension "bagfile-viewer-vs-code-extension". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

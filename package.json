@@ -1,6 +1,6 @@
 {
-	"name": "cat-customs",
-	"displayName": "Cat Customs",
+	"name": "bagfile-customs",
+	"displayName": "Bagfile Customs",
 	"description": "Custom Editor API Samples",
 	"version": "0.0.1",
 	"publisher": "vscode-samples",
@@ -17,37 +17,19 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCustomEditor:catCustoms.catScratch",
-		"onCustomEditor:catCustoms.pawDraw",
-		"onCommand:catCustoms.pawDraw.new"
+		"onCustomEditor:bagfileCustoms.bagfile"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"customEditors": [
 			{
-				"viewType": "catCustoms.catScratch",
-				"displayName": "Cat Scratch",
+				"viewType": "bagfileCustoms.bagfile",
+				"displayName": "Bagfile Viewer",
 				"selector": [
 					{
-						"filenamePattern": "*.cscratch"
+						"filenamePattern": "*.bag"
 					}
 				]
-			},
-			{
-				"viewType": "catCustoms.pawDraw",
-				"displayName": "Paw Draw",
-				"selector": [
-					{
-						"filenamePattern": "*.pawdraw"
-					}
-				]
-			}
-		],
-		"commands": [
-			{
-				"command": "catCustoms.pawDraw.new",
-				"title": "Create new Paw Draw Document",
-				"category": "Paw Draw"
 			}
 		]
 	},
