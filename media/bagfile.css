@@ -1,0 +1,15 @@
+body {
+	justify-content: center;
+	align-items: center;
+	margin: 1em 2em;
+	/* background-image: url(./sand.jpg); */
+	background-color: var(--vscode-editor-background);
+	/* background-repeat: repeat; */
+	white-space: pre;
+	font-family: monospace;
+}
+
+body.vscode-dark {
+	/* background-image: url(./sand-dark.jpg); */
+	background-color: var(--vscode-editor-background);
+}
